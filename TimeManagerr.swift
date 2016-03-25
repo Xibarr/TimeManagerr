@@ -1,21 +1,18 @@
 //
 //  TimeManager.swift
-//  Just Chinese
+//  
 //
-//  Created by Romain Barthez on 26/01/16.
-//  Copyright © 2016 Romain Barthez. All rights reserved.
+//  Created by Xibarr on 26/01/16.
+//  Copyright © 2016 Xibarr. All rights reserved.
 //
-
-import Foundation
-
 
 // 1 - The TimeManager is used determine the period of the day on a device (Morning, Lunch, Afternoon, etc).
-
+//
 // 2 - You can also use to return the value .Dark at night and .Bright during day time. It can be used to adapt your app theme.
-
+//
 // 3 - Use currentTime() to return the current Time as a Tuple ex: for 19:29:05  (19, 29, 5)
 
-
+import Foundation
 
 class TimeManagerr {
     
